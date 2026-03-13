@@ -1,0 +1,69 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f6f9;
+}
+
+/* Center screen */
+
+.dashboard-container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Card */
+
+.dashboard-card{
+  background:white;
+  padding:50px 70px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+/* Title */
+
+.dashboard-card h1{
+  margin-bottom:30px;
+}
+
+/* Buttons layout */
+
+.dashboard-buttons{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+}
+
+/* Buttons */
+
+.dashboard-buttons button{
+  padding:12px 22px;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+  color:white;
+}
+
+/* Create */
+
+.create-btn{
+  background:#4CAF50;
+}
+
+.create-btn:hover{
+  background:#43a047;
+}
+
+/* Responses */
+
+.response-btn{
+  background:#2196F3;
+}
+
+.response-btn:hover{
+  background:#1976d2;
+}
